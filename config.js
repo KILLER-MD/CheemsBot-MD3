@@ -50,7 +50,7 @@ global.location = "Pakistan, New Caledonia" //ur location
 //bot bombdy
 global.botname = "Aquarium Bot" //ur bot name
 global.websitex = "https://wa.me/+923474187615" //ur website
-global.vidmenu = { url: 'https://a.uguu.se/yVZwheVT.mp4' } //gif and video menu
+global.vidmenu = { url: 'https://a.uguu.se/rmhnYhmk.mp4' } //gif and video menu
 global.packname = "Aquarium Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
 global.author = "🦄Dream Guy Asif"
 global.themeemoji = "💚"
