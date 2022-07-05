@@ -51,22 +51,22 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 	    width: 80,
 		whitespaceBreak: true
         }), 'yellow'))
-console.log(color('\n🐶 YT CHANNEL: Asif ','silver'))
-console.log(color('🐶 GITHUB: DARK-ASIF ','silver'))
-console.log(color('🐶 WA NUMBER: +923474187615 ','silver'))
-console.log(color('  🦄Dark Bot Inc. 2022🦄','mediumseagreen'))
+console.log(color('\n🐶 YT CHANNEL: Xeon ','silver'))
+console.log(color('🐶 GITHUB: DGXeon ','silver'))
+console.log(color('🐶 WA NUMBER: +916909137213 ','silver'))
+console.log(color('  🦄Xeon Bot Inc. 2022🦄','mediumseagreen'))
     console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
-    console.log(color('🐶', 'cyan'), color('https://wa.me/923474187615'))
-    console.log(color('🐶', 'cyan'), color('Bot Is Online...', 'pink'))
+    console.log(color('🐶', 'cyan'), color('https://wa.me/916909137213'))
+    console.log(color('🐶', 'cyan'), color('Cheems Bot Is Online...', 'pink'))
     console.log(color('🐶', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('🐶','red'), color('Thanks For Using our Bot', 'white'))
+    console.log(color('🐶','red'), color('Thanks For Using Cheems Bot', 'white'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['⇢𝅃꯭᳚𝚶⃪꯭𝔣̓𝔣⃪ꪶ⃪𝝸꯭⃕𝝶⃪꯭⃖𝛆⃪꯭≝꯭ ➛','Safari','1.0.0'],
+        browser: ['Subscribe Xeon','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -160,12 +160,12 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
                 xeonbody = `┌─❖
 │「 𝗛𝗶 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │💛^💚  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │💛^💚  ${metadata.subject}
-   │💛^💚  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │💛^💚 ${xmembers}th
-   │💛^💚  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │💛^💚 ${xtime} ${xdate}
+   │💛  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │💛  ${metadata.subject}
+   │💛  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │💛 ${xmembers}th
+   │💛  𝗝𝗼𝗶𝗻𝗲𝗱 : 
+   │💛 ${xtime} ${xdate}
    └───────────────┈ ⳹`
    //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
@@ -204,12 +204,12 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     xeonbody = `┌─❖
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │💛^💚  𝗟𝗲𝗳𝘁 
-   │💛^💚 ${metadata.subject}
-   │💛^💚  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │💛^💚 ${xeonmembers}th
-   │💛^💚  𝗧𝗶𝗺𝗲 : 
-   │💛^💚  ${xeontime} ${xeondate}
+   │💛  𝗟𝗲𝗳𝘁 
+   │💛 ${metadata.subject}
+   │💛  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │💛 ${xeonmembers}th
+   │💛  𝗧𝗶𝗺𝗲 : 
+   │💛  ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
@@ -284,7 +284,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await XeonBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\nFN:${global.ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.ytname}\nitem2.X-ABLabel:⇢𝅃꯭᳚𝚶⃪꯭𝔣̓𝔣⃪ꪶ⃪𝝸꯭⃕𝝶⃪꯭⃖𝛆⃪꯭≝꯭ ➛\nitem3.URL:${global.socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\nFN:${global.ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${global.socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	XeonBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
